@@ -1,0 +1,8 @@
+Django
+requests
+opencv-python 
+joblib
+tensorflow
+Pillow
+django-cors-headers
+djangorestframework

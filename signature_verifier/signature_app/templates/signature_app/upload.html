@@ -1,0 +1,6 @@
+<h1>Upload Signatures for Verification</h1>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload and Verify</button>
+</form>
